@@ -8,8 +8,8 @@ Example
 import (
     "log"
 
-	"github.com/dvwzj/iam48-go/utils/json"
-	"github.com/dvwzj/iam48-go/session"
+    "github.com/dvwzj/iam48-go/utils/json"
+    "github.com/dvwzj/iam48-go/session"
 )
 
 publicSession, err := NewSession()
