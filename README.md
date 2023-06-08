@@ -12,7 +12,7 @@ import (
     "github.com/dvwzj/iam48-go/session"
 )
 
-publicSession, err := NewSession()
+publicSession, err := session.NewSession()
 if err != nil {
     log.Fatal(err)
 }
