@@ -1,0 +1,3 @@
+package entity
+
+type CoreShopPaymentInfo BaseResponse[ShopPaymentRequestResponseInfo]
