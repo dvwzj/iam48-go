@@ -4,11 +4,11 @@ type LiveUrlInfo struct {
 	// @SerializedName("chatDelaySeconds")
 	// @Nullable
 	// private Long chatDelaySeconds;
-	ChatDelaySeconds *int64 `json:"chatDelaySeconds,omitempty"`
+	ChatDelaySeconds *float64 `json:"chatDelaySeconds,omitempty"`
 	// @SerializedName("heartDelaySeconds")
 	// @Nullable
 	// private Long heartDelaySeconds;
-	HeartDelaySeconds *int64 `json:"heartDelaySeconds,omitempty"`
+	HeartDelaySeconds *float64 `json:"heartDelaySeconds,omitempty"`
 	// @SerializedName("hlsUrl")
 	// @Nullable
 	// private String hlsUrl;
